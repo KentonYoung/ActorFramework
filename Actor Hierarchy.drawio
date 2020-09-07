@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T19:04:13.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="j01AENl35FDrmeRobHVt" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-07T19:14:02.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="Qa_-1zGBOwTQd1ICrF4H" version="13.6.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2630" dy="1505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="7837" dy="1806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Actor Hierarchy" style="swimlane;html=1;startSize=26;horizontal=1;containerType=tree;glass=0;autosize=1;shadow=0;resizeWidth=1;resizeHeight=1;resizable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry y="270" width="2540" height="870" as="geometry" />
+          <mxGeometry x="-11" y="321" width="2538" height="1053" as="geometry" />
         </mxCell>
         <mxCell id="yNW7wvVj0RcZNOnP4LPE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.431;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12">
           <mxGeometry relative="1" as="geometry">
@@ -47,19 +47,25 @@
         <mxCell id="yNW7wvVj0RcZNOnP4LPE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="yNW7wvVj0RcZNOnP4LPE-7" target="dNxyNK7c78bLwvsdeMH5-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yNW7wvVj0RcZNOnP4LPE-7" value="Run Launcher&lt;br&gt;(Dan Gets to work)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#000000;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="1206" y="58" width="110" height="110" as="geometry" />
+        <mxCell id="yNW7wvVj0RcZNOnP4LPE-7" value="Launch Root Actor&lt;br&gt;(ATE Supervisor)&lt;br&gt;(Dan Gets to work)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="1191.5" y="50" width="139" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="yNW7wvVj0RcZNOnP4LPE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="yNW7wvVj0RcZNOnP4LPE-15" target="yNW7wvVj0RcZNOnP4LPE-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Nested Actor: Wade (RF)&lt;br&gt;-Architect RF Tasks&lt;br&gt;-Execute Large RF Tasks&lt;br&gt;-Delegate RF Sub Tasks&lt;br&gt;-Review RF Tasks&lt;br&gt;-Release RF Task&lt;br&gt;-Train on RF Updates&lt;br&gt;-Don&#39;t Even Have AC (can you even believe this guy?)" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-15">
           <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=0;resizeWidth=0;resizable=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="21" y="674" width="320" height="130" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Nested Actor: Jon (External Gatekeeper)&lt;br&gt;-Architect External Tasks&lt;br&gt;-Execute Baseline Tasks&lt;br&gt;-Delegate Baseline Tasks&lt;br&gt;-Review Baseline Tasks&lt;br&gt;-Release Baseline Task&lt;br&gt;-Train on Baseline Update&lt;br&gt;-Code Like Lightning" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-21">
+        <UserObject label="Nested Actor: Jon Marsh (External Gatekeeper)&lt;br&gt;-Architect External Tasks&lt;br&gt;-Execute Baseline Tasks&lt;br&gt;-Delegate Baseline Tasks&lt;br&gt;-Review Baseline Tasks&lt;br&gt;-Release Baseline Task&lt;br&gt;-Train on Baseline Update&lt;br&gt;-Code Like Lightning" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-21">
           <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=0;resizeWidth=0;resizable=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-            <mxGeometry x="1820" y="678" width="322" height="140" as="geometry" />
+            <mxGeometry x="1812" y="678" width="338" height="140" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="yNW7wvVj0RcZNOnP4LPE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="yNW7wvVj0RcZNOnP4LPE-22" target="yNW7wvVj0RcZNOnP4LPE-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Nested Actor: Jeff&amp;nbsp; &amp;amp; Colt?(Legacy/Tragon Gatekeeper)&lt;br&gt;-Architect Complex Legacy/Tragon Tasks&lt;br&gt;-Execute Complex Legacy/Tragon Tasks&lt;br&gt;-Delegate Legacy/Tragon Sub Tasks&lt;br&gt;-Review Legacy/Tragon Tasks&lt;br&gt;-Release Legacy/Tragon Task&lt;br&gt;-Train on Legacy/Tragon Update&lt;br&gt;-Know the Dark Secrets of the Past" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-22">
           <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=1;resizeWidth=1;resizable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="2180" y="678" width="322" height="150" as="geometry" />
@@ -70,14 +76,40 @@
             <mxGeometry x="1100" y="678" width="322" height="120" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="yNW7wvVj0RcZNOnP4LPE-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="yNW7wvVj0RcZNOnP4LPE-17" target="yNW7wvVj0RcZNOnP4LPE-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Nested Actor: Dave (HAL Gatekeeper)&lt;br&gt;-Architect Critical HAL Tasks&lt;br&gt;-Execute Critical HALTasks&lt;br&gt;-Delegate HAL sub Tasks&lt;br&gt;-Review HAL Tasks&lt;br&gt;-Release HAL Tasks&lt;br&gt;-Train on HAL Updates&lt;br&gt;-Answer a billion questions&lt;br&gt;" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-17">
           <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=1;resizeWidth=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="1460" y="678" width="322" height="140" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="yNW7wvVj0RcZNOnP4LPE-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="yNW7wvVj0RcZNOnP4LPE-30" target="yNW7wvVj0RcZNOnP4LPE-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Nested Actor: Brian (Util Lib Gatekeeper)&lt;br&gt;-Architect Util Lib Tasks&lt;br&gt;-Execute Critical Util Lib Tasks&lt;br&gt;-Delegate Util Lib Sub Tasks&lt;br&gt;-Review Util Lib Tasks&lt;br&gt;-Release Util Lib Tasks&lt;br&gt;-Train on Util Lib Update&lt;br&gt;-Be an involuntary MPM ninja" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-30">
           <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=1;resizeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
             <mxGeometry x="740" y="678" width="322" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Nested Actor: Chad Green (Hal Subtask Manager)&lt;br&gt;-Architect Critical HAL Tasks&lt;br&gt;-Execute Critical HALTasks&lt;br&gt;-Delegate HAL sub Tasks&lt;br&gt;-Review HAL Tasks&lt;br&gt;-Release HAL Tasks&lt;br&gt;-Train on HAL Updates&lt;br&gt;-Answer a billion questions" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-38">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=1;resizeWidth=1;strokeColor=#56517e;fillColor=none;strokeWidth=5;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="1450.5" y="842" width="341" height="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Nested Actor: Kenton Tragon (Subtask manager)&lt;br&gt;-Analyze Requirements&lt;br&gt;-Clarify With STEES&lt;br&gt;-Complete Tragon Sub Task&lt;br&gt;-Tell Colt/Ryan It&#39;s done" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-39">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=1;resizeWidth=1;resizable=1;strokeColor=#d6b656;fillColor=none;strokeWidth=5;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="2180" y="854" width="317" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Nested Actor: Anyone Who hates themselves (MPM Subtask Manager)&lt;br&gt;-Review MPM&lt;br&gt;-Experience SUB VI inception vertigo&lt;br&gt;-Document&lt;br&gt;-Repeat&lt;br&gt;-Notify Brian it&#39;s done" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-42">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=1;resizeWidth=1;strokeColor=#82b366;gradientColor=#97d077;fillColor=none;strokeWidth=6;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="643" y="842" width="516" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Nested Actor: John Palsky&lt;br&gt;-Analyze RF Sub Task&lt;br&gt;-Complete RF Sub Task&lt;br&gt;-Report RF Subtask Complete&lt;br&gt;-Build a sentient House/Van" name="Ron Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" id="yNW7wvVj0RcZNOnP4LPE-44">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;resizeHeight=0;resizeWidth=0;resizable=1;strokeColor=#b85450;gradientColor=#ea6b66;strokeWidth=5;fillColor=none;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+            <mxGeometry x="16" y="832" width="320" height="130" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
