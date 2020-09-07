@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T02:29:20.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="f58_sJ2TOZXi6JM4_HRV" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-07T02:32:17.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="gS-JdcdwViml-TN_erit" version="13.6.6" type="github">
   <diagram id="JlhVB8p8ZdxXsbfCaM8-" name="Page-1">
-    <mxGraphModel dx="1191" dy="347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1191" dy="347" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,11 +27,23 @@
         <mxCell id="holC7iPKsB48iNfw9Qid-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="holC7iPKsB48iNfw9Qid-10" target="holC7iPKsB48iNfw9Qid-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="holC7iPKsB48iNfw9Qid-10" value="Maintain Actor Count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="holC7iPKsB48iNfw9Qid-10" value="Count Actors.vi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="526" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="holC7iPKsB48iNfw9Qid-12" value="Run Pre Launch Init VI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="708" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="holC7iPKsB48iNfw9Qid-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="holC7iPKsB48iNfw9Qid-12" target="holC7iPKsB48iNfw9Qid-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="holC7iPKsB48iNfw9Qid-12" value="Pre Launch Init VI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708" y="120" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="holC7iPKsB48iNfw9Qid-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="holC7iPKsB48iNfw9Qid-14" target="holC7iPKsB48iNfw9Qid-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="holC7iPKsB48iNfw9Qid-14" value="Actor Core.vi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="884" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="holC7iPKsB48iNfw9Qid-16" value="Last Ack.vi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
